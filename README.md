@@ -49,7 +49,7 @@
   + 텍스트 정보는 Firestore에 저장되며, 이미지 정보는 Storage에 저장됩니다.
   + 각각의 테이블의 루트 경로는 어플리케이션에 로그인 시 연결한 구글 이메일 주소가 됩니다.
   + 커뮤니티에 등록한 글은 ‘community’라는 이름의 경로 아래에 저장되며. 이미지와 텍스트가 별도로 저장되기 때문에 정보를 불러올때 엇갈리거나 섞이지 않도록 스레드를 제어하는 방식으로 구현했습니다.
-  + 
+
 <p align="center"><img width="720" alt="FireStore" src="https://user-images.githubusercontent.com/59905688/201170880-22d129da-bf8d-403b-b815-4a435a0f8fbe.png" width="40%" height="40%"></p>
 <p align="center"><img width="720" alt="Storage" src="https://user-images.githubusercontent.com/59905688/201170907-f19d64cc-2f29-40fd-9913-c088cac3bbbd.png" width="40%" height="40%"></p>
   
