@@ -17,7 +17,9 @@
 - 참여자 : 김현준(Developer) holden.developer@gmail.com, 최수현(Developer) shChoie@gmail.com (총 2인) 
 
 - 진행 기간 : 2021.03.12 - 2022.06.10 (총 4주) 
+
 <br/>
+
 ## 구현 기능
 
 - 포토북 생성
