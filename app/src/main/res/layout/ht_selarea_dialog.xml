@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/seoulGyeongSelBtn"
+            android:text="서울/경기"
+            android:fontFamily="@font/maplestorybold"
+            android:background="#7FB8AC"
+            android:textColor="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/incheonSelBtn"
+            android:text="인천"
+            android:fontFamily="@font/maplestorybold"
+            android:background="#006D77"
+            android:textColor="#FFFFFF"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/busanSelBtn"
+            android:text="부산"
+            android:background="#BE97C6"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/maplestorybold"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/daejeonSelBtn"
+            android:text="대전"
+            android:background="#498467"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/maplestorybold"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/daeguSelBtn"
+            android:text="대구"
+            android:background="#F0A202"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/maplestorybold"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/gwangjuSelBtn"
+            android:text="광주"
+            android:background="#C95D63"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/maplestorybold"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+
+</TableLayout>
