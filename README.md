@@ -36,7 +36,7 @@
   + 사용자는 선택한 표지와 포토북 명, 멤버 등의 정보를 통해 원하는 포토북을 찾아 정보를 열람합니다.
   + 포토북 내의 정보(사진, 영상, 텍스트)들은 그리드 뷰를 통해 보여지며 각각 하단에 라벨을 붙여 유사한 사진과 영상이 구분되도록 하였습니다.
   + 사진, 영상을 선택하면 함께 입력한 텍스트가 함께 보여지고 영상의 경우 소리 또한 함께 재생됩니다.
- <img width="720" alt="Map" src="https://user-images.githubusercontent.com/59905688/201169550-b3e8181d-c11f-42aa-8375-87109ac04bd6.png" width="20%" height="20%">
+>> <img width="720" alt="Map" src="https://user-images.githubusercontent.com/59905688/201169550-b3e8181d-c11f-42aa-8375-87109ac04bd6.png" width="20%" height="20%">
     
 - 커뮤니티
   + 사용자는 커뮤니티 탭에서 하단의 글 작성 버튼을 눌러 게시글을 작성할 수 있습니다.
@@ -49,8 +49,8 @@
   + 텍스트 정보는 Firestore에 저장되며, 이미지 정보는 Storage에 저장됩니다.
   + 각각의 테이블의 루트 경로는 어플리케이션에 로그인 시 연결한 구글 이메일 주소가 됩니다.
   + 커뮤니티에 등록한 글은 ‘community’라는 이름의 경로 아래에 저장되며. 이미지와 텍스트가 별도로 저장되기 때문에 정보를 불러올때 엇갈리거나 섞이지 않도록 스레드를 제어하는 방식으로 구현했습니다.
-  <img width="720" alt="FireStore" src="https://user-images.githubusercontent.com/59905688/201170880-22d129da-bf8d-403b-b815-4a435a0f8fbe.png" width="40%" height="40%">
-  <img width="720" alt="Storage" src="https://user-images.githubusercontent.com/59905688/201170907-f19d64cc-2f29-40fd-9913-c088cac3bbbd.png" width="40%" height="40%">
+>>  <img width="720" alt="FireStore" src="https://user-images.githubusercontent.com/59905688/201170880-22d129da-bf8d-403b-b815-4a435a0f8fbe.png" width="40%" height="40%">
+>>  <img width="720" alt="Storage" src="https://user-images.githubusercontent.com/59905688/201170907-f19d64cc-2f29-40fd-9913-c088cac3bbbd.png" width="40%" height="40%">
   
 ## 담당 파트
 - HomeTap UI
